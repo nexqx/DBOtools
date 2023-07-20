@@ -1,0 +1,8 @@
+*{
+    margin: 0px;
+    overflow: hidden;
+}
+body,
+html {
+    overflow-x: hidden;
+}
