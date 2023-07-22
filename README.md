@@ -1,5 +1,5 @@
 # DBOtools
-private repository for DBOtools.
+Official repository for DBOtools.
 
 
 What is DBOtools?
