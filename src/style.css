@@ -1,8 +1,69 @@
 *{
     margin: 0px;
-    overflow: hidden;
 }
-body,
-html {
-    overflow-x: hidden;
+body{
+    background-color: orange;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.wrapper{
+    position: relative;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header{
+    background-image: url("/asset/DBO_BG.png");
+    background-size: cover;
+    text-align: center;
+}
+.header .title{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 40%;
+}
+.header .nav {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    background-color: white;
+}
+.header .nav a{
+    text-decoration: none;
+    color: rgb(30, 35, 40);
+    transition-property: transform color;
+    transition-duration: 0.5s;
+    font-size: 1.2em;
+}
+.header .nav a:hover {
+    transform: translateY(-4px);
+    color: rgb(221, 134, 2);
+}
+.content{
+    background-color: white;
+}
+.content .home{
+    padding-left: 20px;
+}
+/*The Home content*/
+.content .home .title{
+    padding-top: 40px;
+    font-size: 2 em;
+}
+.content .home .para1{
+    padding-top: 20px;
+    padding-bottom: 40px;
+    width: 70%;
+}
+.footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: #191b1f;
+}
+.footer h6{
+    color: grey;
 }

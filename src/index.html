@@ -3,7 +3,6 @@
 
   <head>
     <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1" />
-    
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 
     <link rel="stylesheet" href="style.css">
@@ -19,8 +18,31 @@
   </head>
 
   <body>
-    <canvas class="webgl"></canvas>
-    <script type="module" src="main.js">
+    <div class="wrapper">
+      <section class="header">
+        <img class="title" src="/asset/Logo.png">
+        <li class="nav">
+          <a href="">Home</a>
+          <a href="">Character creator</a>
+          <a href="">Kits calculator</a>
+          <a href="">Gear builds</a>
+        </li>
+      </section>
+      <hr class="brk">
+      <div class="content">
+          <div class="home">
+            <h1 class="title">What is DBOtools?</h1>
+            <p class ="para1">• DBOtools is a website that contains some of the useful tools for Dragon ball online, such as character creator, kits calculator and gear builds, all free for use!</p>
+            <p></p>
+          </div>
+          <div class="charc"></div>
+          <div class="gearbuild"></div>
+      </div>
+      <div class="footer">
+        <h6>This website offers tools free of charge to help players.Graphics such as logo, banner and models belongs to the original authors of Dragon ball online.</h6>
+      </div>
+    </div>
+    <script type="module" src="Charcreator.js">
     </script>
   </body>
 
