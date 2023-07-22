@@ -1,4 +1,4 @@
-// create a WebGLRenderer and set its width and height
+/*Character creator file.*/
 import * as THREE from 'three'
 import { GLTFLoader } from "https://cdn.jsdelivr.net/npm/three@0.121.1/examples/jsm/loaders/GLTFLoader.js"
 
@@ -28,7 +28,7 @@ renderer.setSize(sizes.width, sizes.height)
 renderer.render(scene, camera);
 
 
-//update
+//Update function.
 window.addEventListener("resize", () => {
     sizes.width = window.innerWidth / 1.8
     sizes.height = window.innerHeight / 1.8
@@ -37,7 +37,7 @@ window.addEventListener("resize", () => {
     camera.updateProjectionMatrix()
     renderer.setSize(sizes.width, sizes.height)
 })
-
+//GLTF models loader.
 loader.load('../asset/Goku2.gltf',
     function (gltf) {
         const sword = gltf.scene;  // sword 3D object is loaded
